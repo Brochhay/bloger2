@@ -3,8 +3,6 @@ import { Gradient } from "./gradient";
 import Container from "./container";
 import { Button } from "./button";
 import { Footer } from "flowbite-react";
-export default function Footer() {
-  return (
 
 "use client";
 
