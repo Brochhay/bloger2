@@ -1,12 +1,7 @@
-import React from "react";
-import { Gradient } from "./gradient";
-import Container from "./container";
-import { Button } from "./button";
-import { Footer } from "flowbite-react";
 
 "use client";
 
-
+import { Footer } from "flowbite-react";
 
 export function Component() {
   return (
@@ -32,4 +27,3 @@ export function Component() {
     </Footer>
   );
 }
-
