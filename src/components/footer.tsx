@@ -1,16 +1,33 @@
+import React from "react";
+import { Gradient } from "./gradient";
+import Container from "./container";
+import { Button } from "./button";
 
-import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-react";
-
-export function Component() {
+export default function Footer() {
   return (
-    <Footer container>
-      <FooterCopyright href="#" by="Flowbite™" year={2022} />
-      <FooterLinkGroup>
-        <FooterLink href="#">About</FooterLink>
-        <FooterLink href="#">Privacy Policy</FooterLink>
-        <FooterLink href="#">Licensing</FooterLink>
-        <FooterLink href="#">Contact</FooterLink>
-      </FooterLinkGroup>
-    </Footer>
+    <footer>
+      <Gradient className="relative">
+        <div className="absolute inset-2 rounded-4xl bg-white/80" />
+        <Container className="relative py-16 text-center sm:py-24">
+          <div>
+            <p className="font-mono text-xs/5 font-semibold uppercase tracking-widest text-gray-500">
+              
+            </p>
+            <p className="mx-auto mt-6 text-3xl text-gray-950 sm:text-5xl tracking-tight font-medium">
+               ? <br />
+              
+            </p>
+            <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
+              
+            </p>
+            <div className="mt-6">
+              <Button className="w-full sm:w-auto" href="/login">
+                
+              </Button>
+            </div>
+          </div>
+        </Container>
+      </Gradient>
+    </footer>
   );
 }
