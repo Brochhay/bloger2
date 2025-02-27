@@ -3,10 +3,4 @@ import { Gradient } from "./gradient";
 import Container from "./container";
 import { Button } from "./button";
 
-export default function Footer() {
-  return (
-    <footer>
-     
-    </footer>
-  );
-}
+export default function Footer()
