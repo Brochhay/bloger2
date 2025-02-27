@@ -7,9 +7,7 @@ export default function Footer() {
   return (
     <footer>
       <Gradient className="relative">
-        <div className="absolute inset-2 rounded-4xl bg-white/80" />
-        <Container className="relative py-16 text-center sm:py-24">
-          <div>
+
             <p className="font-mono text-xs/5 font-semibold uppercase tracking-widest text-gray-500">
               
             </p>
