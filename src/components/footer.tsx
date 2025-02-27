@@ -14,7 +14,7 @@ export default function Footer() {
               
             </p>
             <p className="mx-auto mt-6 text-3xl text-gray-950 sm:text-5xl tracking-tight font-medium">
-               ? <br />
+              <br />
               
             </p>
             <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
