@@ -9,9 +9,7 @@
     "lint": "next lint",
     "typegen": "sanity schema extract --path=src/sanity/extract.json && sanity typegen generate && rm ./src/sanity/extract.json"
   },
-  "dependencies": {
-    "react-icons": "^4.12.0"
-  },
+
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
